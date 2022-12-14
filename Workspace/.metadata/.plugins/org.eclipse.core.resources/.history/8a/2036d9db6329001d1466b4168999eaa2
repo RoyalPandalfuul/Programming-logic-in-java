@@ -1,0 +1,38 @@
+package ListaD;
+
+import java.util.Scanner;
+
+public class D09 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		double SA, RA, SN, CD;
+		
+		System.out.print("Digite o código da função: ");
+	    CD = input.nextDouble();
+	   
+	    System.out.print("Digite o valor do salario atual: ");
+	    SA = input.nextDouble();
+	    
+	    if (CD == 1){
+	    	RA = SA * 5 / 100;
+	        SN = RA + SA;
+	        System.out.println("e sua funçao é Operador");
+	    }
+	    if (CD == 2){
+	    	RA = SA * 10 / 100;
+	        SN = RA + SA;
+	        System.out.println("e sua funçao é Progamador");
+	    }
+	    if (CD == 1){
+	    	RA = SA * 15 / 100;
+	        SN = RA + SA;
+	        System.out.println("e sua funçao é Analista");
+	    }
+	    System.out.println("O salrio antigo era de " + SA  + " reais");
+        System.out.println(" e agora com o reajuste de" + RA + " reais o novo salario é de R$" + SN);
+	}
+	}
+

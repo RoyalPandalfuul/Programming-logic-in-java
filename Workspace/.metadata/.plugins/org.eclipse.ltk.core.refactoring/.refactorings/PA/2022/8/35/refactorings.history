@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;listaA.A10.main().leia&apos; in &apos;listaA.A10.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;PA&apos;&#x0D;&#x0A;- Original element: &apos;listaA.A10.main().leia&apos;&#x0D;&#x0A;- Field name: &apos;leia&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;leia&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;listaA{A10.java" name="leia" selection="272 29" stamp="1661368210115" static="true" version="1.0" visibility="2"/>
+</session>

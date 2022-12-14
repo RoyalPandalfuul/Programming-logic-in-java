@@ -1,0 +1,72 @@
+package ListaD;
+
+import java.util.Scanner;
+
+public class D05 {
+
+	public static void main(String[] args) {
+		int A, B, C;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Digite o valor de A: ");
+		A = input.nextInt();
+		System.out.print("Digite o valor de B: ");
+		B = input.nextInt();
+		System.out.print("Digite o valor de C: ");
+		C = input.nextInt();
+		
+		if ((A > B) && (A> C) && (B > C)){
+			System.out.print("A ordem é: " + C + " "  + B + " " + A);
+		}
+		
+		if ((A > B) && (A > C) && (C > B)){
+			System.out.print("a ordem é: "+ B + " " + C + " " + A);
+		}
+		
+		if ((A < B) && (B == C)){
+			System.out.print("a ordem é: " + A + " " + B + " " + C);
+		}
+		
+		if ((B > A) && (B > C) && (A > C)){
+			System.out.print("a ordem é: " + C + " " + A + " " + B);
+		}
+		
+		if ((B > A) && (B > C) && (C > A)){
+			System.out.print("a ordem é :" + A + " " + C + " " + B);
+		}
+		
+		if ((B < A) && (A == C)){
+			System.out.print("a ordem é: " + B + " " + A + " " + C);
+		}
+		
+		if ((C > A) && (C > B) && (B > A)){
+			System.out.print("A ordem é: " + A + " "  + B + " " + C);
+		}
+		
+		if ((C > B) && (C > A) && (A > B)){
+			System.out.print("a ordem é: "+ B + " " + A + " " + C);
+		}
+		
+		if ((C < B) && (B == A)){
+			System.out.print("a ordem é: " + C + " " + B + " " + A);
+		}
+		
+		if ((A == B) && (B == C)){
+			System.out.print("Todos são iguais: " + A + " " + B + " " + C);
+		}
+		
+		if ((A > B) && (B == C)){
+			System.out.print("A ordem é :" + B + " " + C + " " + A );
+		}
+		
+		if ((B > A) && (A == C)){
+			System.out.print("A ordem é :" + A + " " + C + " " + B );
+		}
+		
+		if ((C > B) && (B == A)){
+			System.out.print("A ordem é :" + A + " " + B + " " + C );
+		}
+		
+	}
+
+}
